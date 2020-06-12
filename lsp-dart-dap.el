@@ -40,25 +40,25 @@
   :type 'string)
 
 (defcustom lsp-dart-dap-dart-debugger-program
-  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/out/src/debug/dart_debug_entry.js"))
+  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/src/debug/dart_debug_entry.ts"))
   "The path to the dart debugger."
   :group 'lsp-dart
   :type '(repeat string))
 
 (defcustom lsp-dart-dap-dart-test-debugger-program
-  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/out/src/debug/dart_test_debug_entry.js"))
+  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/src/debug/dart_test_debug_entry.ts"))
   "The path to the dart test debugger."
   :group 'lsp-dart
   :type '(repeat string))
 
 (defcustom lsp-dart-dap-flutter-debugger-program
-  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/out/src/debug/flutter_debug_entry.js"))
+  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/src/debug/flutter_debug_entry.ts"))
   "The path to the Flutter debugger."
   :group 'lsp-dart
   :type '(repeat string))
 
 (defcustom lsp-dart-dap-flutter-test-debugger-program
-  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/out/src/debug/flutter_test_debug_entry.js"))
+  `("node" ,(f-join lsp-dart-dap-debugger-path "extension/src/debug/flutter_test_debug_entry.ts"))
   "The path to the dart test debugger."
   :group 'lsp-dart
   :type '(repeat string))
